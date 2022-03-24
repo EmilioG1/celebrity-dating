@@ -8,7 +8,51 @@
   <title>Celebrity Dating Quiz</title>
 </head>
 <body>
-  <h1>Celebrity Dating Quiz<h1>
-  
+  <div class="container">
+    <h1>Celebrity Dating Quiz<h1>
+    <div>
+      <form id="user">
+        <div class="form-group">
+          <label for="name">Enter Your Name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="age">Enter Your Age:</label>
+          <input id="age" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="job">Select Your Occupation:</label>
+          <select class="form-control" id="occupation">
+            <option value="1">Cook</option>
+            <option value="2">Cashier</option>
+            <option value="3">Sales</option>
+            <option value="4">Assistant Manager</option>
+          </select>
+        </div>
+        <div class="output">
+          <button type="submit" class="btn-success">Show me the match!</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="monster">
+      <div id="witch">
+        <p>You'd be perfect for the Wicked Witch of the West!</p>
+        <img src="https://m.media-amazon.com/images/I/717PUYnUrKL._SL1244_.jpg" alt="A photo of the wicked witch of the west">
+      </div>
+      <div id="frank">
+        <p>You'd be perfect for Frankenstein's monster!</p>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F01%2Ffrankensteincop-2000.jpg&q=60" alt="frankenstein">
+      </div>
+      <div id="dracula">
+        <p>You'd be perfect for Dracula!</p>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2018%2F03%2Fmbddrac_ec007-2000.jpg&q=60" alt="A photo of dracula">
+      </div>
+      <div id="medusa">
+        <p>You'd be perfect for Medusa!</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ78Axtv34US8M8QtvEG7UavyDAU8XuTBp03Q&usqp=CAU" alt="A drawing of Medusa">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
